@@ -53,7 +53,7 @@ class Employee:
                 name=self.name, hours=self.hours, hourly_pay=self.hourly_pay, commission=self.commission)
 
         if(self.payment_type == "salary" and self.commission_type == "contracts"):
-            finalString += "{name} works on on a monthly salary of {monthly_pay} and receives a commission for {num_contracts} contract(s) at {pay_per_contract}/contract.".format(
+            finalString += "{name} works on a monthly salary of {monthly_pay} and receives a commission for {num_contracts} contract(s) at {pay_per_contract}/contract.".format(
                 name=self.name, monthly_pay=self.monthly_salary, hourly_pay=self.hourly_pay, num_contracts=self.num_contracts, pay_per_contract=self.pay_per_contract)
 
         if(self.payment_type == "hourly" and self.commission_type == "contracts"):
