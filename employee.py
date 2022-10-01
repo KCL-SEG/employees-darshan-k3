@@ -60,7 +60,7 @@ class Employee:
             finalString += "{name} works on a contract of {hours} hours at {hourly_pay}/hour and receives a commission for {num_contracts} contract(s) at {pay_per_contract}/contract.".format(
                 name=self.name, hours=self.hours, hourly_pay=self.hourly_pay, num_contracts=self.num_contracts, pay_per_contract=self.pay_per_contract)
 
-        finalString += " Their total pay is {pay}.".format(pay=self.pay)
+        finalString += "Their total pay is {pay}.".format(pay=self.pay)
         return finalString
 
 
